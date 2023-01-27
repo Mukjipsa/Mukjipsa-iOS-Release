@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B02433A29842E53007D1AB1 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02433929842E53007D1AB1 /* UIFont+.swift */; };
 		3BB8DCA729841F4E00D0ECD6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */; };
 		3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA82984216400D0ECD6 /* UIColor+.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B02433929842E53007D1AB1 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3BB8DCA82984216400D0ECD6 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +204,7 @@
 				4AA00D1D2983C2F100D9304C /* UIViewController+.swift */,
 				4AA00D1F2983C3B100D9304C /* UIScreen+.swift */,
 				3BB8DCA82984216400D0ECD6 /* UIColor+.swift */,
+				3B02433929842E53007D1AB1 /* UIFont+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				4AA00D332983C61B00D9304C /* BaseTargetType.swift in Sources */,
 				3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */,
 				4AA00D352983C6AF00D9304C /* API.swift in Sources */,
+				3B02433A29842E53007D1AB1 /* UIFont+.swift in Sources */,
 				4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */,
 				4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */,
 				4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */,
