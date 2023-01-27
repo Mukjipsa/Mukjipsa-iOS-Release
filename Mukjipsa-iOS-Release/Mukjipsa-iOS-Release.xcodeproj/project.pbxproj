@@ -28,7 +28,7 @@
 		4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1B2983BEE800D9304C /* UIView+.swift */; };
 		4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1D2983C2F100D9304C /* UIViewController+.swift */; };
 		4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1F2983C3B100D9304C /* UIScreen+.swift */; };
-		4AA00D222983C44900D9304C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D212983C44900D9304C /* Constant.swift */; };
+		4AA00D222983C44900D9304C /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D212983C44900D9304C /* Number.swift */; };
 		4AA00D242983C48800D9304C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D232983C48800D9304C /* Colors.xcassets */; };
 		4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */; };
 		4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */; };
@@ -55,7 +55,7 @@
 		4AA00D1B2983BEE800D9304C /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		4AA00D1D2983C2F100D9304C /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		4AA00D1F2983C3B100D9304C /* UIScreen+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+.swift"; sourceTree = "<group>"; };
-		4AA00D212983C44900D9304C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4AA00D212983C44900D9304C /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		4AA00D232983C48800D9304C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
 		4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		4AA00D132983BDC200D9304C /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				4AA00D212983C44900D9304C /* Constant.swift */,
+				4AA00D212983C44900D9304C /* Number.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -372,7 +372,7 @@
 				4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */,
 				4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */,
 				4AA00D372983C6B400D9304C /* Service.swift in Sources */,
-				4AA00D222983C44900D9304C /* Constant.swift in Sources */,
+				4AA00D222983C44900D9304C /* Number.swift in Sources */,
 				4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */,
 				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
 				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
