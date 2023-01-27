@@ -23,6 +23,23 @@
 		4AA00D062983BC4E00D9304C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00D052983BC4E00D9304C /* RxCocoa */; };
 		4AA00D082983BC4E00D9304C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00D072983BC4E00D9304C /* RxRelay */; };
 		4AA00D0A2983BC4E00D9304C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00D092983BC4E00D9304C /* RxSwift */; };
+		4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D172983BE0B00D9304C /* ViewModel.swift */; };
+		4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D192983BEBD00D9304C /* DesignSystem.swift */; };
+		4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1B2983BEE800D9304C /* UIView+.swift */; };
+		4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1D2983C2F100D9304C /* UIViewController+.swift */; };
+		4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1F2983C3B100D9304C /* UIScreen+.swift */; };
+		4AA00D222983C44900D9304C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D212983C44900D9304C /* Constant.swift */; };
+		4AA00D242983C48800D9304C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D232983C48800D9304C /* Colors.xcassets */; };
+		4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */; };
+		4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */; };
+		4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D302983C60D00D9304C /* URLConstant.swift */; };
+		4AA00D332983C61B00D9304C /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D322983C61B00D9304C /* BaseTargetType.swift */; };
+		4AA00D352983C6AF00D9304C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D342983C6AF00D9304C /* API.swift */; };
+		4AA00D372983C6B400D9304C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D362983C6B400D9304C /* Service.swift */; };
+		4AA00D392983C6B900D9304C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D382983C6B900D9304C /* DataModel.swift */; };
+		4AA00D3D2983C73300D9304C /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D3A2983C73200D9304C /* Pretendard-SemiBold.otf */; };
+		4AA00D3E2983C73300D9304C /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D3B2983C73300D9304C /* Pretendard-Light.otf */; };
+		4AA00D3F2983C73300D9304C /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D3C2983C73300D9304C /* Pretendard-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +50,23 @@
 		4AA00CE32983B4C600D9304C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA00CE62983B4C600D9304C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA00CE82983B4C600D9304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA00D172983BE0B00D9304C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4AA00D192983BEBD00D9304C /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		4AA00D1B2983BEE800D9304C /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		4AA00D1D2983C2F100D9304C /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		4AA00D1F2983C3B100D9304C /* UIScreen+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+.swift"; sourceTree = "<group>"; };
+		4AA00D212983C44900D9304C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4AA00D232983C48800D9304C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		4AA00D302983C60D00D9304C /* URLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
+		4AA00D322983C61B00D9304C /* BaseTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTargetType.swift; sourceTree = "<group>"; };
+		4AA00D342983C6AF00D9304C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4AA00D362983C6B400D9304C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4AA00D382983C6B900D9304C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4AA00D3A2983C73200D9304C /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		4AA00D3B2983C73300D9304C /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		4AA00D3C2983C73300D9304C /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +110,167 @@
 		4AA00CD92983B4C500D9304C /* Mukjipsa-iOS-Release */ = {
 			isa = PBXGroup;
 			children = (
-				4AA00CDA2983B4C500D9304C /* AppDelegate.swift */,
-				4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */,
-				4AA00CDE2983B4C500D9304C /* ViewController.swift */,
-				4AA00CE32983B4C600D9304C /* Assets.xcassets */,
-				4AA00CE52983B4C600D9304C /* LaunchScreen.storyboard */,
-				4AA00CE82983B4C600D9304C /* Info.plist */,
+				4AA00D0B2983BD3700D9304C /* Resources */,
+				4AA00D0C2983BD5400D9304C /* Sources */,
 			);
 			path = "Mukjipsa-iOS-Release";
+			sourceTree = "<group>";
+		};
+		4AA00D0B2983BD3700D9304C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D162983BDD500D9304C /* Protocol */,
+				4AA00D152983BDCB00D9304C /* DesignSystem */,
+				4AA00D142983BDC600D9304C /* Extension */,
+				4AA00D132983BDC200D9304C /* Constant */,
+				4AA00D122983BDBE00D9304C /* Support */,
+				4AA00D112983BDBA00D9304C /* Color */,
+				4AA00D102983BDB600D9304C /* Font */,
+				4AA00D0F2983BDB100D9304C /* Asset */,
+				4AA00D0E2983BDA700D9304C /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4AA00D0C2983BD5400D9304C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D252983C4B600D9304C /* Network */,
+				4AA00D262983C4D100D9304C /* Presentation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4AA00D0E2983BDA700D9304C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00CE52983B4C600D9304C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4AA00D0F2983BDB100D9304C /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00CE32983B4C600D9304C /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		4AA00D102983BDB600D9304C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D3B2983C73300D9304C /* Pretendard-Light.otf */,
+				4AA00D3C2983C73300D9304C /* Pretendard-Regular.otf */,
+				4AA00D3A2983C73200D9304C /* Pretendard-SemiBold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4AA00D112983BDBA00D9304C /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D232983C48800D9304C /* Colors.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		4AA00D122983BDBE00D9304C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00CE82983B4C600D9304C /* Info.plist */,
+				4AA00CDA2983B4C500D9304C /* AppDelegate.swift */,
+				4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4AA00D132983BDC200D9304C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D212983C44900D9304C /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4AA00D142983BDC600D9304C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D1B2983BEE800D9304C /* UIView+.swift */,
+				4AA00D1D2983C2F100D9304C /* UIViewController+.swift */,
+				4AA00D1F2983C3B100D9304C /* UIScreen+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4AA00D152983BDCB00D9304C /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D192983BEBD00D9304C /* DesignSystem.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4AA00D162983BDD500D9304C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D172983BE0B00D9304C /* ViewModel.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4AA00D252983C4B600D9304C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D2B2983C51500D9304C /* Base */,
+				4AA00D2A2983C51000D9304C /* API */,
+				4AA00D292983C50500D9304C /* Service */,
+				4AA00D282983C4FE00D9304C /* DataModel */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4AA00D262983C4D100D9304C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00CDE2983B4C500D9304C /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4AA00D282983C4FE00D9304C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D382983C6B900D9304C /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		4AA00D292983C50500D9304C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D362983C6B400D9304C /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4AA00D2A2983C51000D9304C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D342983C6AF00D9304C /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4AA00D2B2983C51500D9304C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */,
+				4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */,
+				4AA00D302983C60D00D9304C /* URLConstant.swift */,
+				4AA00D322983C61B00D9304C /* BaseTargetType.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +353,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA00D242983C48800D9304C /* Colors.xcassets in Resources */,
+				4AA00D3F2983C73300D9304C /* Pretendard-Regular.otf in Resources */,
 				4AA00CE72983B4C600D9304C /* LaunchScreen.storyboard in Resources */,
 				4AA00CE42983B4C600D9304C /* Assets.xcassets in Resources */,
+				4AA00D3E2983C73300D9304C /* Pretendard-Light.otf in Resources */,
+				4AA00D3D2983C73300D9304C /* Pretendard-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */,
+				4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */,
+				4AA00D372983C6B400D9304C /* Service.swift in Sources */,
+				4AA00D222983C44900D9304C /* Constant.swift in Sources */,
 				4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */,
+				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
+				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
+				4AA00D332983C61B00D9304C /* BaseTargetType.swift in Sources */,
+				4AA00D352983C6AF00D9304C /* API.swift in Sources */,
+				4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */,
+				4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */,
+				4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */,
 				4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */,
+				4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */,
 				4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */,
+				4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
