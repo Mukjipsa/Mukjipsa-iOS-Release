@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B02433A29842E53007D1AB1 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02433929842E53007D1AB1 /* UIFont+.swift */; };
+		3BB8DCA729841F4E00D0ECD6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */; };
+		3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA82984216400D0ECD6 /* UIColor+.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
 		4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */; };
 		4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDE2983B4C500D9304C /* ViewController.swift */; };
@@ -29,7 +32,6 @@
 		4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1D2983C2F100D9304C /* UIViewController+.swift */; };
 		4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1F2983C3B100D9304C /* UIScreen+.swift */; };
 		4AA00D222983C44900D9304C /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D212983C44900D9304C /* Number.swift */; };
-		4AA00D242983C48800D9304C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00D232983C48800D9304C /* Colors.xcassets */; };
 		4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */; };
 		4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */; };
 		4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D302983C60D00D9304C /* URLConstant.swift */; };
@@ -43,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B02433929842E53007D1AB1 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3BB8DCA82984216400D0ECD6 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA00CDA2983B4C500D9304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +61,6 @@
 		4AA00D1D2983C2F100D9304C /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		4AA00D1F2983C3B100D9304C /* UIScreen+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+.swift"; sourceTree = "<group>"; };
 		4AA00D212983C44900D9304C /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
-		4AA00D232983C48800D9304C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4AA00D2C2983C52E00D9304C /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
 		4AA00D2E2983C54600D9304C /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
 		4AA00D302983C60D00D9304C /* URLConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
@@ -91,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BB8DCA529841F2D00D0ECD6 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		4AA00CCE2983B4C500D9304C = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +136,7 @@
 				4AA00D142983BDC600D9304C /* Extension */,
 				4AA00D132983BDC200D9304C /* Constant */,
 				4AA00D122983BDBE00D9304C /* Support */,
-				4AA00D112983BDBA00D9304C /* Color */,
+				3BB8DCA529841F2D00D0ECD6 /* Color */,
 				4AA00D102983BDB600D9304C /* Font */,
 				4AA00D0F2983BDB100D9304C /* Asset */,
 				4AA00D0E2983BDA700D9304C /* Storyboard */,
@@ -167,14 +179,6 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		4AA00D112983BDBA00D9304C /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				4AA00D232983C48800D9304C /* Colors.xcassets */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
 		4AA00D122983BDBE00D9304C /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +203,8 @@
 				4AA00D1B2983BEE800D9304C /* UIView+.swift */,
 				4AA00D1D2983C2F100D9304C /* UIViewController+.swift */,
 				4AA00D1F2983C3B100D9304C /* UIScreen+.swift */,
+				3BB8DCA82984216400D0ECD6 /* UIColor+.swift */,
+				3B02433929842E53007D1AB1 /* UIFont+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -353,10 +359,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA00D242983C48800D9304C /* Colors.xcassets in Resources */,
 				4AA00D3F2983C73300D9304C /* Pretendard-Regular.otf in Resources */,
 				4AA00CE72983B4C600D9304C /* LaunchScreen.storyboard in Resources */,
 				4AA00CE42983B4C600D9304C /* Assets.xcassets in Resources */,
+				3BB8DCA729841F4E00D0ECD6 /* Colors.xcassets in Resources */,
 				4AA00D3E2983C73300D9304C /* Pretendard-Light.otf in Resources */,
 				4AA00D3D2983C73300D9304C /* Pretendard-SemiBold.otf in Resources */,
 			);
@@ -377,7 +383,9 @@
 				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
 				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
 				4AA00D332983C61B00D9304C /* BaseTargetType.swift in Sources */,
+				3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */,
 				4AA00D352983C6AF00D9304C /* API.swift in Sources */,
+				3B02433A29842E53007D1AB1 /* UIFont+.swift in Sources */,
 				4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */,
 				4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */,
 				4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */,
@@ -524,10 +532,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Mukjipsa-iOS-Release/Info.plist";
+				INFOPLIST_FILE = "Mukjipsa-iOS-Release/Resources/Support/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -555,10 +562,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Mukjipsa-iOS-Release/Info.plist";
+				INFOPLIST_FILE = "Mukjipsa-iOS-Release/Resources/Support/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
