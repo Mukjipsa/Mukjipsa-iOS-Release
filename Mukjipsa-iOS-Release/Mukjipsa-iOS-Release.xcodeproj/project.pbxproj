@@ -17,6 +17,10 @@
 		4A9C07A529881A7500A2E3EB /* popup.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C07A229881A7500A2E3EB /* popup.json */; };
 		4A9C07A629881A7500A2E3EB /* onboardingEnd.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C07A329881A7500A2E3EB /* onboardingEnd.json */; };
 		4A9C07A829881A9600A2E3EB /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07A729881A9600A2E3EB /* Lottie.swift */; };
+		4A9C07AB29881B2100A2E3EB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07AA29881B2100A2E3EB /* TabBarController.swift */; };
+		4A9C07B029881B6800A2E3EB /* MyRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07AF29881B6800A2E3EB /* MyRecipeViewController.swift */; };
+		4A9C07B229881B6F00A2E3EB /* MyIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07B129881B6F00A2E3EB /* MyIngredientViewController.swift */; };
+		4A9C07B429881B7700A2E3EB /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07B329881B7700A2E3EB /* BookmarkViewController.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
 		4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */; };
 		4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDE2983B4C500D9304C /* ViewController.swift */; };
@@ -63,6 +67,10 @@
 		4A9C07A229881A7500A2E3EB /* popup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = popup.json; sourceTree = "<group>"; };
 		4A9C07A329881A7500A2E3EB /* onboardingEnd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingEnd.json; sourceTree = "<group>"; };
 		4A9C07A729881A9600A2E3EB /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		4A9C07AA29881B2100A2E3EB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4A9C07AF29881B6800A2E3EB /* MyRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipeViewController.swift; sourceTree = "<group>"; };
+		4A9C07B129881B6F00A2E3EB /* MyIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIngredientViewController.swift; sourceTree = "<group>"; };
+		4A9C07B329881B7700A2E3EB /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA00CDA2983B4C500D9304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +150,38 @@
 				4A9C07A229881A7500A2E3EB /* popup.json */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		4A9C07A929881AE700A2E3EB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C07AA29881B2100A2E3EB /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4A9C07AC29881B3200A2E3EB /* MyRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C07AF29881B6800A2E3EB /* MyRecipeViewController.swift */,
+			);
+			path = MyRecipe;
+			sourceTree = "<group>";
+		};
+		4A9C07AD29881B3B00A2E3EB /* MyIngredient */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C07B129881B6F00A2E3EB /* MyIngredientViewController.swift */,
+			);
+			path = MyIngredient;
+			sourceTree = "<group>";
+		};
+		4A9C07AE29881B5300A2E3EB /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C07B329881B7700A2E3EB /* BookmarkViewController.swift */,
+			);
+			path = Bookmark;
 			sourceTree = "<group>";
 		};
 		4AA00CCE2983B4C500D9304C = {
@@ -284,6 +324,10 @@
 		4AA00D262983C4D100D9304C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4A9C07A929881AE700A2E3EB /* TabBar */,
+				4A9C07AC29881B3200A2E3EB /* MyRecipe */,
+				4A9C07AD29881B3B00A2E3EB /* MyIngredient */,
+				4A9C07AE29881B5300A2E3EB /* Bookmark */,
 				3BF6E8272987A0DE00E2D455 /* Splash */,
 				3BF6E82429879E8300E2D455 /* Auth */,
 				4AA00CDE2983B4C500D9304C /* ViewController.swift */,
@@ -430,6 +474,7 @@
 				4AA00D372983C6B400D9304C /* Service.swift in Sources */,
 				4AA00D222983C44900D9304C /* Number.swift in Sources */,
 				4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */,
+				4A9C07AB29881B2100A2E3EB /* TabBarController.swift in Sources */,
 				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
 				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
 				4A9C079F2988135700A2E3EB /* Image.swift in Sources */,
@@ -440,10 +485,13 @@
 				4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */,
 				4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */,
 				4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */,
+				4A9C07B229881B6F00A2E3EB /* MyIngredientViewController.swift in Sources */,
 				4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */,
 				4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */,
 				3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */,
 				4A9C07A829881A9600A2E3EB /* Lottie.swift in Sources */,
+				4A9C07B029881B6800A2E3EB /* MyRecipeViewController.swift in Sources */,
+				4A9C07B429881B7700A2E3EB /* BookmarkViewController.swift in Sources */,
 				4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */,
 				4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */,
 				3BF6E8292987A0EC00E2D455 /* SplashViewController.swift in Sources */,
