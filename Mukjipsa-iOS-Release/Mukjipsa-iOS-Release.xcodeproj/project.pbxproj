@@ -12,6 +12,7 @@
 		3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA82984216400D0ECD6 /* UIColor+.swift */; };
 		3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6E82529879E9300E2D455 /* AuthViewController.swift */; };
 		3BF6E8292987A0EC00E2D455 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6E8282987A0EC00E2D455 /* SplashViewController.swift */; };
+		4A9C079F2988135700A2E3EB /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C079E2988135700A2E3EB /* Image.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
 		4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */; };
 		4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDE2983B4C500D9304C /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		3BB8DCA82984216400D0ECD6 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		3BF6E82529879E9300E2D455 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		3BF6E8282987A0EC00E2D455 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4A9C079E2988135700A2E3EB /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA00CDA2983B4C500D9304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				4AA00D212983C44900D9304C /* Number.swift */,
+				4A9C079E2988135700A2E3EB /* Image.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */,
 				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
 				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
+				4A9C079F2988135700A2E3EB /* Image.swift in Sources */,
 				4AA00D332983C61B00D9304C /* BaseTargetType.swift in Sources */,
 				3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */,
 				4AA00D352983C6AF00D9304C /* API.swift in Sources */,
