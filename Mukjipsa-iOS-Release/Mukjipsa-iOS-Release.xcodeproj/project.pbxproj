@@ -13,6 +13,10 @@
 		3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6E82529879E9300E2D455 /* AuthViewController.swift */; };
 		3BF6E8292987A0EC00E2D455 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6E8282987A0EC00E2D455 /* SplashViewController.swift */; };
 		4A9C079F2988135700A2E3EB /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C079E2988135700A2E3EB /* Image.swift */; };
+		4A9C07A429881A7500A2E3EB /* onboardingStart.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C07A129881A7400A2E3EB /* onboardingStart.json */; };
+		4A9C07A529881A7500A2E3EB /* popup.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C07A229881A7500A2E3EB /* popup.json */; };
+		4A9C07A629881A7500A2E3EB /* onboardingEnd.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C07A329881A7500A2E3EB /* onboardingEnd.json */; };
+		4A9C07A829881A9600A2E3EB /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07A729881A9600A2E3EB /* Lottie.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
 		4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */; };
 		4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDE2983B4C500D9304C /* ViewController.swift */; };
@@ -55,6 +59,10 @@
 		3BF6E82529879E9300E2D455 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		3BF6E8282987A0EC00E2D455 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4A9C079E2988135700A2E3EB /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4A9C07A129881A7400A2E3EB /* onboardingStart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingStart.json; sourceTree = "<group>"; };
+		4A9C07A229881A7500A2E3EB /* popup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = popup.json; sourceTree = "<group>"; };
+		4A9C07A329881A7500A2E3EB /* onboardingEnd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingEnd.json; sourceTree = "<group>"; };
+		4A9C07A729881A9600A2E3EB /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA00CDA2983B4C500D9304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +134,16 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		4A9C07A029881A5D00A2E3EB /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C07A329881A7500A2E3EB /* onboardingEnd.json */,
+				4A9C07A129881A7400A2E3EB /* onboardingStart.json */,
+				4A9C07A229881A7500A2E3EB /* popup.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		4AA00CCE2983B4C500D9304C = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +181,7 @@
 				3BB8DCA529841F2D00D0ECD6 /* Color */,
 				4AA00D102983BDB600D9304C /* Font */,
 				4AA00D0F2983BDB100D9304C /* Asset */,
+				4A9C07A029881A5D00A2E3EB /* Lottie */,
 				4AA00D0E2983BDA700D9304C /* Storyboard */,
 			);
 			path = Resources;
@@ -218,6 +237,7 @@
 			children = (
 				4AA00D212983C44900D9304C /* Number.swift */,
 				4A9C079E2988135700A2E3EB /* Image.swift */,
+				4A9C07A729881A9600A2E3EB /* Lottie.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -390,8 +410,11 @@
 				4AA00CE72983B4C600D9304C /* LaunchScreen.storyboard in Resources */,
 				4AA00CE42983B4C600D9304C /* Assets.xcassets in Resources */,
 				3BB8DCA729841F4E00D0ECD6 /* Colors.xcassets in Resources */,
+				4A9C07A429881A7500A2E3EB /* onboardingStart.json in Resources */,
 				4AA00D3E2983C73300D9304C /* Pretendard-Light.otf in Resources */,
+				4A9C07A529881A7500A2E3EB /* popup.json in Resources */,
 				4AA00D3D2983C73300D9304C /* Pretendard-SemiBold.otf in Resources */,
+				4A9C07A629881A7500A2E3EB /* onboardingEnd.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +443,7 @@
 				4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */,
 				4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */,
 				3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */,
+				4A9C07A829881A9600A2E3EB /* Lottie.swift in Sources */,
 				4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */,
 				4AA00D2D2983C52E00D9304C /* GeneralResponse.swift in Sources */,
 				3BF6E8292987A0EC00E2D455 /* SplashViewController.swift in Sources */,
