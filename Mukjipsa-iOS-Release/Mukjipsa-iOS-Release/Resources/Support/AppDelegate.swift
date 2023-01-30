@@ -7,10 +7,29 @@
 
 import UIKit
 
+import AuthenticationServices
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let appleIDProvider = ASAuthorizationAppleIDProvider()
+        appleIDProvider.getCredentialState(forUserID: "00000.abcabcabcabc.0000(로그인에 사용한 UserIdentifier)") { (credentialState, error) in
+            switch credentialState {
+            case .authorized: // 이미 증명이 된 경우 (정상)
+                print("authorized")
+                // The Apple ID credential is valid.
+            case .revoked:    // 증명을 취소했을 때,
+                print("revoked")
+                // 로그인뷰로 이동하기
+            case .notFound:   // 증명이 존재하지 않을 경우
+                print("notFound")
+                // 로그인뷰로 이동하기
+                
+            default:
+                break
+            }
+        }
         return true
     }
     
