@@ -8,7 +8,7 @@
 import Foundation
 
 struct Lottie {
-    static let one = "onboardingStart"
-    static let tow = "onboardingEnd"
+    static let onboardingStart = "onboardingStart"
+    static let onboardingEnd = "onboardingEnd"
     static let popup = "popup"
 }

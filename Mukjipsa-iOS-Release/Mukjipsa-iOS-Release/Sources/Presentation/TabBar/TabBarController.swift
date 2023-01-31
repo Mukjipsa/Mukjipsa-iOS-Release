@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
 
     // MARK: - Life Cycle
     
@@ -21,8 +21,8 @@ class TabBarController: UITabBarController {
     }
 }
 
-extension TabBarController {
-    private func makeTabBar(viewController: UIViewController,
+private extension TabBarController {
+    func makeTabBar(viewController: UIViewController,
                             title: String,
                             tabBarImg: UIImage,
                             tabBarSelectedImg: UIImage,
@@ -36,7 +36,7 @@ extension TabBarController {
         return tab
     }
     
-    private func setTabBar() {
+    func setTabBar() {
         let recipeTab = makeTabBar(viewController: MyRecipeViewController(),
                                    title: "레시피",
                                    tabBarImg: Image.tabbarRecipe ?? UIImage(),
@@ -61,7 +61,7 @@ extension TabBarController {
         tabBar.tintColor = .black
     }
     
-    private func setRootTabBar() {
+    func setRootTabBar() {
         self.selectedIndex = 1
     }
 }
