@@ -12,6 +12,7 @@
 		3BA3131B29AE075B00363E02 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3131A29AE075B00363E02 /* UILabel+.swift */; };
 		3BA3131D29AE07B200363E02 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3131C29AE07B200363E02 /* UITextField+.swift */; };
 		3BA3131F29AE07BD00363E02 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3131E29AE07BD00363E02 /* UIButton+.swift */; };
+		3BA3132329AE112A00363E02 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3132229AE112A00363E02 /* CTAButton.swift */; };
 		3BB8DCA729841F4E00D0ECD6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */; };
 		3BB8DCA92984216400D0ECD6 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8DCA82984216400D0ECD6 /* UIColor+.swift */; };
 		3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6E82529879E9300E2D455 /* AuthViewController.swift */; };
@@ -42,7 +43,6 @@
 		4AA00D082983BC4E00D9304C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00D072983BC4E00D9304C /* RxRelay */; };
 		4AA00D0A2983BC4E00D9304C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00D092983BC4E00D9304C /* RxSwift */; };
 		4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D172983BE0B00D9304C /* ViewModel.swift */; };
-		4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D192983BEBD00D9304C /* DesignSystem.swift */; };
 		4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1B2983BEE800D9304C /* UIView+.swift */; };
 		4AA00D1E2983C2F100D9304C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1D2983C2F100D9304C /* UIViewController+.swift */; };
 		4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00D1F2983C3B100D9304C /* UIScreen+.swift */; };
@@ -66,6 +66,7 @@
 		3BA3131A29AE075B00363E02 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		3BA3131C29AE07B200363E02 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 		3BA3131E29AE07BD00363E02 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		3BA3132229AE112A00363E02 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
 		3BB8DCA629841F4E00D0ECD6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3BB8DCA82984216400D0ECD6 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		3BF6E82529879E9300E2D455 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		4AA00CE62983B4C600D9304C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA00CE82983B4C600D9304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA00D172983BE0B00D9304C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		4AA00D192983BEBD00D9304C /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		4AA00D1B2983BEE800D9304C /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		4AA00D1D2983C2F100D9304C /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		4AA00D1F2983C3B100D9304C /* UIScreen+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+.swift"; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 		4AA00D152983BDCB00D9304C /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				4AA00D192983BEBD00D9304C /* DesignSystem.swift */,
+				3BA3132229AE112A00363E02 /* CTAButton.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -498,10 +498,10 @@
 				3BA3131929AE059A00363E02 /* UITextView+.swift in Sources */,
 				4AA00D312983C60D00D9304C /* URLConstant.swift in Sources */,
 				4AA00D202983C3B100D9304C /* UIScreen+.swift in Sources */,
-				4AA00D1A2983BEBD00D9304C /* DesignSystem.swift in Sources */,
 				4A9C07B229881B6F00A2E3EB /* MyIngredientViewController.swift in Sources */,
 				3BA3131F29AE07BD00363E02 /* UIButton+.swift in Sources */,
 				3BA3131B29AE075B00363E02 /* UILabel+.swift in Sources */,
+				3BA3132329AE112A00363E02 /* CTAButton.swift in Sources */,
 				4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */,
 				4AA00D182983BE0B00D9304C /* ViewModel.swift in Sources */,
 				3BF6E82629879E9300E2D455 /* AuthViewController.swift in Sources */,
