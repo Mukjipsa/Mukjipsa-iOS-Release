@@ -11,9 +11,9 @@ final class CTAButton: UIButton {
     
     // MARK: - Life Cycle
     
-    init(frame: CGRect, title: String, radius: CGFloat = 16, font: UIFont = .bu1) {
+    init(frame: CGRect, title: String, radius: CGFloat = 16, font: UIFont = .bu1, fontSize: CGFloat = Number.bu1) {
         super.init(frame: frame)
-        setUI(title, radius, font)
+        setUI(title, radius, font, fontSize)
     }
     
     @available(*, unavailable)
@@ -23,12 +23,12 @@ final class CTAButton: UIButton {
 }
 
 extension CTAButton {
-    private func setUI(_ title: String, _ radius: CGFloat, _ font: UIFont) {
+    private func setUI(_ title: String, _ radius: CGFloat, _ font: UIFont, _ fontSize: CGFloat) {
         backgroundColor = .primary
         setTitle(title, for: .normal)
         setTitleColor(.white, for: .normal)
-        titleLabel?.font = .bu1
+        titleLabel?.font = font
         layer.cornerRadius = 16
-        setLineHeightAndletterSpacing(Number.bu1)
+        setLineHeightAndletterSpacing(fontSize)
     }
 }
