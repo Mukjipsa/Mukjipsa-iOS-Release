@@ -22,13 +22,14 @@ final class SplashViewController: UIViewController {
         super.viewDidLoad()
         setUI()
         setLayout()
+        presentAuthViewController()
     }
 }
 
 private extension SplashViewController {
     func setUI() {
         view.backgroundColor = .secondary
-//        logoImageView.image =
+        logoImageView.image = Image.logoSplash
     }
     
     func setLayout() {
@@ -37,6 +38,17 @@ private extension SplashViewController {
         logoImageView.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.top.equalTo(view.safeAreaLayoutGuide).inset(261)
+        }
+    }
+    
+    func presentAuthViewController() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            UIView.animate(withDuration: 400) {
+                let nextViewController = AuthViewController()
+                nextViewController.modalPresentationStyle = .overFullScreen
+                nextViewController.modalTransitionStyle = .crossDissolve
+                self.present(nextViewController, animated: true)
+            }
         }
     }
 }

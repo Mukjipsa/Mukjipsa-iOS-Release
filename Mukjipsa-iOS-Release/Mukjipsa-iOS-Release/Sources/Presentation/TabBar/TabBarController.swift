@@ -8,7 +8,7 @@
 import UIKit
 
 final class TabBarController: UITabBarController {
-
+    
     // MARK: - Life Cycle
     
     override func viewDidLoad() {
@@ -23,10 +23,10 @@ final class TabBarController: UITabBarController {
 
 private extension TabBarController {
     func makeTabBar(viewController: UIViewController,
-                            title: String,
-                            tabBarImg: UIImage,
-                            tabBarSelectedImg: UIImage,
-                            renderingMode: UIImage.RenderingMode) -> UIViewController {
+                    title: String,
+                    tabBarImg: UIImage,
+                    tabBarSelectedImg: UIImage,
+                    renderingMode: UIImage.RenderingMode) -> UIViewController {
         
         let tab = UINavigationController(rootViewController: viewController)
         tab.isNavigationBarHidden = true
@@ -45,16 +45,16 @@ private extension TabBarController {
         let ingredientTap = makeTabBar(viewController: MyIngredientViewController(),
                                        title: "나의 재료",
                                        tabBarImg: Image.tabbarIngredient ?? UIImage(),
-                                 tabBarSelectedImg: Image.tabbarIngredientSelected ?? UIImage(),
-                                 renderingMode: .alwaysTemplate)
+                                       tabBarSelectedImg: Image.tabbarIngredientSelected ?? UIImage(),
+                                       renderingMode: .alwaysTemplate)
         let bookmarkTap = makeTabBar(viewController: BookmarkViewController(),
                                      title: "북마크",
                                      tabBarImg: Image.tabbarBookmark ?? UIImage(),
-                                 tabBarSelectedImg: Image.tabbarBookmarkSelected ?? UIImage(),
-                                 renderingMode: .alwaysTemplate)
+                                     tabBarSelectedImg: Image.tabbarBookmarkSelected ?? UIImage(),
+                                     renderingMode: .alwaysTemplate)
         
         let tabs = [recipeTab, ingredientTap, bookmarkTap]
-    
+        
         self.setViewControllers(tabs, animated: false)
         
         tabBar.backgroundColor = .white

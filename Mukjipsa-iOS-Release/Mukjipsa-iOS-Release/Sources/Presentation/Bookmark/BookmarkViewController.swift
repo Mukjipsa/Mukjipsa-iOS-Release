@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class BookmarkViewController: ViewController {
+final class BookmarkViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -28,7 +28,6 @@
 		4A9C07B429881B7700A2E3EB /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C07B329881B7700A2E3EB /* BookmarkViewController.swift */; };
 		4AA00CDB2983B4C500D9304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDA2983B4C500D9304C /* AppDelegate.swift */; };
 		4AA00CDD2983B4C500D9304C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */; };
-		4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA00CDE2983B4C500D9304C /* ViewController.swift */; };
 		4AA00CE42983B4C600D9304C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00CE32983B4C600D9304C /* Assets.xcassets */; };
 		4AA00CE72983B4C600D9304C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA00CE52983B4C600D9304C /* LaunchScreen.storyboard */; };
 		4AA00CF02983BB6C00D9304C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA00CEF2983BB6C00D9304C /* Lottie */; };
@@ -83,7 +82,6 @@
 		4AA00CD72983B4C500D9304C /* Mukjipsa-iOS-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mukjipsa-iOS-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA00CDA2983B4C500D9304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA00CDC2983B4C500D9304C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AA00CDE2983B4C500D9304C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AA00CE32983B4C600D9304C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA00CE62983B4C600D9304C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA00CE82983B4C600D9304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -342,7 +340,6 @@
 				4A9C07AE29881B5300A2E3EB /* Bookmark */,
 				3BF6E8272987A0DE00E2D455 /* Splash */,
 				3BF6E82429879E8300E2D455 /* Auth */,
-				4AA00CDE2983B4C500D9304C /* ViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -485,7 +482,6 @@
 				4AA00D1C2983BEE800D9304C /* UIView+.swift in Sources */,
 				4AA00D372983C6B400D9304C /* Service.swift in Sources */,
 				4AA00D222983C44900D9304C /* Number.swift in Sources */,
-				4AA00CDF2983B4C500D9304C /* ViewController.swift in Sources */,
 				4A9C07AB29881B2100A2E3EB /* TabBarController.swift in Sources */,
 				4AA00D392983C6B900D9304C /* DataModel.swift in Sources */,
 				4AA00D2F2983C54600D9304C /* MoyaLoggingPlugin.swift in Sources */,
